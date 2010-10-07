@@ -171,7 +171,6 @@ var EditableList = new Class({
     initialize: function(elem, opts) {
         this.setOptions(opts);
         this.elem = this.build(elem, opts);
-        this.addEvent('selected');
     },
 
     build: function(elem, opts) {
